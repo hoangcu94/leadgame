@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project cuối khóa</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link
+			href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Permanent+Marker&display=swap"
+			rel="stylesheet"
+		/>
+</head>
+
+<body>
+
+    <div class="parent">
+        <img src="./images/bg_boss.jpg"
+            alt="ảnh nền" id="bg">
+        <div class="tdWeb" data-aos="fade-up"
+        data-aos-duration="3000">
+            Lead game
+        </div>
+
+        <!-- het div icon  -->
+        <div class="demo">
+            <span id="mainbox" onclick="openFunction()" style="color: white;">&#9776;</span>
+        </div>
+        <!-- het div demo  -->
+        <div id="menu" class="sidemenu">
+            <a href="#" id="home">Trang chủ</a>
+            <a href="#" id="typhu">Cờ tỷ phú</a>
+            <a href="#" id="cangua">Cá ngựa</a>
+            <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+        </div>
+        <!-- het div side menu  -->
+       
+        <div class="test"  id="khungCaNgua">
+            <div class="om">
+                <div class="k6">
+                    <a href="#" style="color:  #18ffd8;">
+                        cách chơi
+                    </a>
+                </div>
+                <div class="k3"></div>
+                <div class="k6" id="sangCaNgua">
+                    <a href="#" style="color: #18ffd8;">
+                        Chơi game
+                    </a>
+                </div>
+            </div>
+            <!-- het om  -->
+        </div>
+        <!-- het khung ca ngua  -->
+        <div class="test"  id="khungCoTyPhu">
+            <div class="om">
+                <div class="k1" id="ruleMonopoly">
+                    <a href="#" style="color: #18dcff;" >
+                        cách chơi
+                    </a>
+                </div>
+                <!-- het k1  -->
+                <div class="k2"></div>
+                <div class="k1" id="sangCotyphu">
+                    <a href="#" style="color: #18dcff;">
+                        Chơi game
+                    </a>
+                </div>
+                <!-- het k1  -->
+            </div>
+            <!-- het om  -->
+        </div>
+        <!-- het khung ty phu  -->
+        
+    </div>
+    <!-- het div parent  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./main.js"></script>
+    <script src="./loadingCaNgua/newload.html"></script>
+    <script src="./loadingMonopoly/newload.html"></script>
+</body>
+</html>
