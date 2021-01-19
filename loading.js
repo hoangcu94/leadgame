@@ -136,4 +136,4 @@ var $body = document.body,
   
 setTimeout(()=>{
 	window.location.replace("main.html");
-},3000)
+},1500)
